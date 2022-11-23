@@ -1,0 +1,10 @@
+   0 date > /home/1.txt
+   1 df -h
+   2 df -h | grep -w / >> /home/1.txt
+   3 history | tail -5 >> /home/1.txt
+   4 cat /proc/cpuinfo
+   5 cat /proc/cpuinfo | grep vendor >> /home/1.txt
+   6 vi /home/1.txt
+   7 ps -ef
+   8 ps -ef | tail +2 | wc -l >> /home/1.txt
+   9 history > homework.txt | export_file homework.txt
